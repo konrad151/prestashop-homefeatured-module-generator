@@ -1,0 +1,27 @@
+{
+  "name": "prestashop-homefeatured-module-generator",
+  "version": "1.0.0",
+  "description": "Generate module which add additional tab on your homepage , set the module to see or not by client groups, choose from what category products will appear in your homepage tab",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Konrad Kacprzyk",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.1",
+    "gulp-clean-css": "^3.9.3",
+    "gulp-concat": "^2.6.1",
+    "gulp-less": "^4.0.0",
+    "gulp-minify": "^2.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sequence": "^1.0.0"
+  },
+  "dependencies": {
+    "sweetalert": "^2.1.0"
+  }
+}
