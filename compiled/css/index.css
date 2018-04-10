@@ -1,0 +1,78 @@
+html {
+  font-size: 15px;
+  font-family: sans-serif;
+}
+body {
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+h1 {
+  margin-bottom: 50px;
+  text-align: center;
+}
+.content {
+  padding: 100px 0px;
+}
+form {
+  width: 300px;
+  margin: 0 auto;
+}
+input.tabname,
+input.name {
+  width: 100%;
+  margin-bottom: 5px;
+  height: 47px;
+  padding: 0px 10px;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+input.tabname:focus,
+input.name:focus {
+  border-color: #eaa629;
+  outline: 0;
+  border-style: solid;
+}
+input.btn {
+  display: block;
+  width: 100%;
+  padding: 15px 0px;
+  background: #eaa629;
+  box-sizing: border-box;
+  font-weight: bold;
+  border: 1px solid #eaa629;
+  color: #fff;
+  font-size: 1rem;
+  height: 47px;
+  -webkit-transition: 0.3s ease-out;
+  -moz-transition: 0.3s ease-out;
+  -ms-transition: 0.3s ease-out;
+  -o-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
+}
+input.btn:hover {
+  background: #fff;
+  border: 1px solid #eaa629;
+  color: #eaa629;
+  box-sizing: border-box;
+  cursor: pointer;
+  height: 47px;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+input.btn:active {
+  outline: none;
+}
+input.btn:focus {
+  outline: none;
+}
+input.btn.disabled {
+  opacity: 0.7;
+}
+input.btn {
+  margin-bottom: 5px;
+}
