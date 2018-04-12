@@ -1,27 +1,47 @@
-@color_1: #fff;
-@color_2: #eaa629;
-@font_family_1: sans-serif;
+@white: #fff;
+@primary: #4196af;
+@secondary: #64c8e6;
+@tertiary: #f26101;
+@font-face {
+	font-family: glacial-regular;
+    src: url(../../fonts/GlacialIndifference-Regular.otf);
+}
+@font-face {
+	font-family: glacial-bold;
+    src: url(../../fonts/GlacialIndifference-Bold.otf);
+}
+@font-face {
+	font-family: glacial-italic;
+    src: url(../../fonts/GlacialIndifference-Italic.otf);
+}
 
 html {
 	font-size: 15px;
-	font-family: @font_family_1;
+	font-family: glacial-regular;
+	body{
+		margin: 0;
+	}
 }
-body {
-	height: 100vh;
-	overflow: hidden;
-	display: flex;
-	justify-content: center;
+h1,h2,h3{
+	margin-top:0;
 }
 h1 {
-	margin-bottom: 50px;
-	text-align: center;
+	font-family: glacial-bold;
 }
-.content {
-	padding: 100px 0px;
+h2{
+	max-width: 890px;
+    margin: 0 auto;
 }
 form {
 	width: 300px;
 	margin: 0 auto;
+}
+.top-content{
+	background: @primary;
+	height: 100vh;
+}
+.top-content__text{
+	text-align: center;
 }
 input.tabname, input.name {
 	width: 100%;
@@ -31,7 +51,7 @@ input.tabname, input.name {
 	box-sizing: border-box;
 	font-size: 1rem;
 	&:focus {
-		border-color: @color_2;
+		border-color: @tertiary;
 		outline: 0;
 		border-style: solid;
 	}
@@ -40,11 +60,11 @@ input.btn {
 	display: block;
 	width: 100%;
 	padding: 15px 0px;
-	background: @color_2;
+	background: @tertiary;
 	box-sizing: border-box;
 	font-weight: bold;
-	border: 1px solid @color_2;
-	color: @color_1;
+	border: 1px solid @tertiary;
+	color: @white;
 	font-size: 1rem;
 	height: 47px;
 	-webkit-transition:  0.3s ease-out;
@@ -52,10 +72,11 @@ input.btn {
 	-ms-transition:  0.3s ease-out;
 	-o-transition:  0.3s ease-out;
 	transition:  0.3s ease-out;
+	opacity: 0.7;
 	&:hover {
-		background: @color_1;
-		border: 1px solid @color_2;
-		color: @color_2;
+		background: @white;
+		border: 1px solid @tertiary;
+		color: @tertiary;
 		box-sizing: border-box;
 		cursor: pointer;
 		height: 47px;
@@ -73,7 +94,7 @@ input.btn {
 	}
 }
 input.btn.disabled {
-	opacity: 0.7;
+	opacity: 1;
 }
 input.btn {
 	margin-bottom: 5px;
