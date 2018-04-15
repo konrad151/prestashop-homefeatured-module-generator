@@ -14,18 +14,65 @@
         <script src="node_modules/sweetalert/dist/sweetalert.min.js"></script>
     </head>
     <body>
-        <section class="top-content">
+        <header class="top-content">
+            <img class="svg-form top-left-svg-form" src="img/top-left-svg-form.svg" alt="">
+            <img class="svg-form top-center-svg-form" src="img/top-center-svg-form.svg" alt="">
+            <img class="svg-form top-right-svg-form" src="img/top-right-svg-form.svg" alt="">
             <div class="top-content__text">
-                <h3>Prestashop 1.6</h3>
+                <h2>Prestashop 1.6</h2>
                 <h1>Homefeatured module generator</h1>
-                <h2>Generate module which add additional tab on your homepage , set the module to see or not by client groups, choose from what category products will appear in your homepage tab</h2>
+                <p>Generate module which add additional tab on your homepage , set the module to see or not by client groups, choose from what category products will appear on your homepage tab</p>
+                <a href="#!"><img class="arrow-down" src="img/arrow-down-circle.svg" alt=""></a>
             </div>
-            <form>
-                <input class="tabname" type="text" placeholder="Tab name">
-                <input class="name" type="text" placeholder="Module name" pattern="^[A-Za-z]+$">
-                
-                <input type="submit" value="Download module" class="btn module disabled">
-            </form>
+            <div class="top-content__form">
+                <form>
+                    <input class="tabname" type="text" placeholder="Tab name*">
+                    <input class="name" type="text" placeholder="Module name*" pattern="^[A-Za-z]+$">
+                    <input type="submit" value="Generate module!" class="btn module disabled">
+                    <p><span>Module name</span> must be only letters and no spaces</p>
+                </form>
+                <img class="notebook" src="img/notebook.png" alt="">
+                <!-- <img class="bubbles-bottom" src="img/bubbles-bottom.png" alt=""> -->
+                <div class="bubbles-bottom-back"></div>
+            </div>
+        </header>
+        <section class="advantages">
+            <h2>What are advantages?</h1>
+            <div class="description">
+                <div class="description__img">
+                    <img src="img/tabs.jpg" alt="">
+                </div>
+                <div class="description__text">
+                    <h3>How much you want</h3>
+                    <p>Generate <strong>how much</strong> modules you want, they will appear on your homepage with the specified <span>Tab name</span> before.</p>
+                </div>
+            </div>
+            <div class="description">
+                <div class="description__text">
+                    <h3>Groups visibility</h3>
+                    <p>If you want to see the module <strong>only</strong> by registered users or other special groups, you can do this in client group settings</p>
+                </div>
+                <div class="description__img">
+                    <img src="img/groups.jpg" alt="">
+                </div>
+            </div>
+            <div class="description">
+                <div class="description__img">
+                    <img src="img/settings.jpg" alt="">
+                </div>
+                <div class="description__text">
+                    <h3>Product display</h3>
+                    <p>Set in <strong>each</strong> module:</p>
+                    <ul>
+                        <li>product quantity to display</li>
+                        <li>category number which products will be from</li>
+                        <li>random display</li>
+                    </ul>
+                </div>
+            </div>
         </section>
+        <footer>
+            <h4>Created and designed by <span>Konrad Kacprzyk</span></h4>
+        </footer>
     </body>
 </html>
