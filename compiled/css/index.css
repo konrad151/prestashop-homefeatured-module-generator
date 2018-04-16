@@ -51,7 +51,7 @@ header .svg-form.top-right-svg-form {
 header .top-content__text {
   text-align: center;
   position: relative;
-  padding: 10rem 0 67rem 0;
+  padding: 10rem 0 50rem 0;
 }
 header .top-content__text h1 {
   font-family: glacial-bold;
@@ -65,7 +65,7 @@ header .top-content__text h2 {
 header .top-content__text p {
   max-width: 950px;
   margin: 0 auto;
-  color: #4f4848;
+  color: #fff;
   font-size: 2.4rem;
 }
 header .top-content__text .arrow-down {
@@ -78,7 +78,7 @@ header .top-content__text .arrow-down {
   left: 0;
   right: 0;
   margin: 0 auto;
-  bottom: 42.5rem;
+  bottom: 30.5rem;
 }
 @keyframes size-change {
   0% {
@@ -109,7 +109,7 @@ header .top-content__form form p {
   font-size: 1.3rem;
 }
 header .top-content__form form p span {
-  color: #f26101;
+  color: #003246;
 }
 header .top-content__form .notebook {
   position: absolute;
@@ -135,7 +135,7 @@ header .top-content__form .bubbles-bottom-back {
   color: #003246;
   max-width: 950px;
   margin: 0 auto;
-  padding: 15rem 15px;
+  padding: 10rem 15px;
 }
 .advantages h2 {
   font-size: 4.8rem;
@@ -184,10 +184,17 @@ header .top-content__form .bubbles-bottom-back {
 footer {
   background: #4196af;
   padding: 5rem 0;
+  text-align: center;
 }
 footer h4 {
   font-size: 1.8rem;
-  color: #fff;
+}
+footer a img {
+  max-width: 60px;
+  padding: 2rem 0 4rem 0;
+}
+footer h4 {
+  font-size: 1.8rem;
   text-align: center;
   margin: 0;
 }
@@ -221,10 +228,10 @@ input.btn {
   display: block;
   width: 100%;
   padding: 15px 0px;
-  background: #64c8e6;
+  background: #003246;
   box-sizing: border-box;
   font-weight: bold;
-  border: 1px solid #64c8e6;
+  border: 1px solid #003246;
   color: #fff;
   height: 47px;
   -webkit-transition: 0.3s ease-out;
@@ -237,8 +244,8 @@ input.btn {
 }
 input.btn:hover {
   background: #fff;
-  border: 1px solid #64c8e6;
-  color: #64c8e6;
+  border: 1px solid #003246;
+  color: #003246;
   box-sizing: border-box;
   cursor: pointer;
   height: 47px;

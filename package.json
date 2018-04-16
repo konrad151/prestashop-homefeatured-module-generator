@@ -1,7 +1,7 @@
 {
   "name": "prestashop-homefeatured-module-generator",
   "version": "1.0.0",
-  "description": "Generate module which add additional tab on your homepage , set the module to see or not by client groups, choose from what category products will appear in your homepage tab",
+  "description": "Generate module which adds additional tab on your homepage , set the module to see or not by client groups, choose from what category products will appear on your homepage tab.",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
